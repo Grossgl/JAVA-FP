@@ -1,0 +1,27 @@
+package FinalPackage;
+
+import javafx.application.Application;
+
+public class Customer extends Menu{
+    public static void main(String[] args) {
+
+    }
+}
+package FinalPackage;
+
+import javafx.application.Application;
+
+public class CustomerOrderDetail extends Customer {
+    public static void main(String[] args) {
+
+    }
+}
+package FinalPackage;
+
+import javafx.application.Application;
+
+public class Menu {
+    public static void main(String[] args) {
+
+    }
+}
