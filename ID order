@@ -1,0 +1,51 @@
+package FinalPackage;
+
+import javafx.application.Application;
+
+public class IndividualOrder {
+	Burgers burgers;
+	Fries fries;
+	Drinks drinks;
+	int quantity = 1;
+	double cost;
+
+	public Burgers getBurgers() {
+		return burgers;
+	}
+
+	public void setBurgers(Burgers burgers) {
+		this.burgers = burgers;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+	public double getCost() {
+		return cost;
+	}
+
+	public void setCost(double cost) {
+		this.cost = cost;
+	}
+
+	public Fries getFries() {
+		return fries;
+	}
+
+	public void setFries(Fries fries) {
+		this.fries = fries;
+	}
+
+	public Drinks getDrinks() {
+		return drinks;
+	}
+
+	public void setDrinks(Drinks drinks) {
+		this.drinks = drinks;
+	}
+}
